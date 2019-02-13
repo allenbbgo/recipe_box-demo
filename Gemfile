@@ -72,3 +72,5 @@ gem 'activerecord-reset-pk-sequence'
 
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem 'hirb'
+
+gem 'devise', '~> 4.2'   

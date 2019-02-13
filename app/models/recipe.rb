@@ -13,4 +13,8 @@ class Recipe < ApplicationRecord
                             reject_if: proc { |attributes| attributes['step'].blank? },
                             allow_destroy: true
     validates :title, :description, :image, presence: true
+    belongs_to :user
+
+
+    
 end
